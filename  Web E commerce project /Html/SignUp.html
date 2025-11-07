@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Style/SignUp.css">
+</head>
+<body>
+    <form id="myForm">
+        <fieldset>
+            <legend>SignUp</legend>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <label for="phNumber">Phone Number</label>
+                    <input type="tel" name="phNumber" id="phNumber" minlength="10" maxlength="10" placeholder="Enter your Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your Email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Create Password">
+                </div>
+                
+            </div>
+            <div class="button-group">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </fieldset>
+    </form>
+    <script src="./Javascript/SignUp.js"></script>
+</body>
+</html>
